@@ -48,3 +48,28 @@ tests
 
 - Ensure binary files you add are added to _git lfs_ (git Large File Storage). If you're unsure, ask!
 - Where possible add test cases in the _FLAC_ (Free Lossless Audio Codec) to save space
+
+## Converting files to FLAC
+
+Open a prompt that has the `ffmpeg` program on PATH.
+
+Change directory to the directory that has your source file (using the `cd` command).
+
+Then run:
+
+```
+> ffmpeg -i input_file.wav output_file.flac 
+```
+
+Replace `input_file.wav` with the file you wish to convert and `output_file.wav` with the name of 
+the new file you wish to write.
+
+### Installing ffmpeg
+
+1. Install _Chocolatey_ if you haven't already: https://chocolatey.org/install
+2. In an elevated shell (e.g. PowerShell running as Adminsitrator), type
+  ```
+  > choco install ffmpeg
+  ```
+
+3. Restart your shell if needed
