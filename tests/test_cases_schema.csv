@@ -1,2 +1,2 @@
-TestFile,AnalyzerName,ConfigFile,SpeciesName,Profile,EventStartSeconds,EventEndSeconds,LowFrequencyHertz,HighFrequencyHertz,AllowedVariance,NegativeMatch
-3mile_creek_dam_-_Herveys_Range_1076_248366_20130305_001700_30_0min,eventrecognizer,Towsey.Canetoad.yml,Bufo marinus,,,,,,,
+TestFile,AnalyzerName,ConfigFile,AddedBy,SpeciesName,Profile,EventStartSeconds,EventEndSeconds,LowFrequencyHertz,HighFrequencyHertz,AllowedVariance,NegativeMatch
+3mile_creek_dam_-_Herveys_Range_1076_248366_20130305_001700_30_0min.wav,eventrecognizer,Towsey.Canetoad.yml,atruskie,Bufo marinus,,,,,,,
